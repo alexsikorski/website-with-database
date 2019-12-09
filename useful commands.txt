@@ -1,0 +1,24 @@
+CREATE USER 'as16815'@'localhost' IDENTIFIED BY 'obscure';
+
+CREATE DATABASE test;
+
+SELECT User FROM mysql.user;
+
+show databases;
+-----
+CD C:\Program Files\MySQL\MySQL Server 8.0\bin
+
+mysql -u as16815 -p -h localhost
+-----
+
+source C:/Apache24/htdocs/script.sql;
+
+DROP DATABASE XXXX;
+
+-----
+GRANT ALL PRIVILEGES ON as16815. * TO 'as16815'@'localhost';
+FLUSH PRIVILEGES;
+
+-----
+show tables;
+use as16815;
